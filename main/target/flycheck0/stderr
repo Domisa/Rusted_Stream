@@ -1,1 +1,24 @@
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.03s
+   0.054174500s  INFO prepare_target{force=false package_id=main v0.1.0 (C:\Users\molsb\Documents\Programming\Stream_Processing\main) target="main"}: cargo::core::compiler::fingerprint: fingerprint dirty for main v0.1.0 (C:\Users\molsb\Documents\Programming\Stream_Processing\main)/Check { test: false }/TargetInner { name: "main", doc: true, ..: with_path("C:\\Users\\molsb\\Documents\\Programming\\Stream_Processing\\main\\src\\main.rs", Edition2021) }
+   0.054242100s  INFO prepare_target{force=false package_id=main v0.1.0 (C:\Users\molsb\Documents\Programming\Stream_Processing\main) target="main"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.059762700s  INFO prepare_target{force=false package_id=rayon v1.11.0 target="rayon"}: cargo::core::compiler::fingerprint: fingerprint dirty for rayon v1.11.0/Check { test: false }/TargetInner { ..: lib_target("rayon", ["lib"], "C:\\Users\\molsb\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rayon-1.11.0\\src\\lib.rs", Edition2021) }
+   0.059798000s  INFO prepare_target{force=false package_id=rayon v1.11.0 target="rayon"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.060481500s  INFO prepare_target{force=false package_id=either v1.15.0 target="either"}: cargo::core::compiler::fingerprint: fingerprint dirty for either v1.15.0/Check { test: false }/TargetInner { ..: lib_target("either", ["lib"], "C:\\Users\\molsb\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\either-1.15.0\\src\\lib.rs", Edition2021) }
+   0.060503100s  INFO prepare_target{force=false package_id=either v1.15.0 target="either"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.061160700s  INFO prepare_target{force=false package_id=rayon-core v1.13.0 target="rayon_core"}: cargo::core::compiler::fingerprint: fingerprint dirty for rayon-core v1.13.0/Check { test: false }/TargetInner { ..: lib_target("rayon_core", ["lib"], "C:\\Users\\molsb\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\rayon-core-1.13.0\\src\\lib.rs", Edition2021) }
+   0.061181000s  INFO prepare_target{force=false package_id=rayon-core v1.13.0 target="rayon_core"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.061853800s  INFO prepare_target{force=false package_id=crossbeam-deque v0.8.6 target="crossbeam_deque"}: cargo::core::compiler::fingerprint: fingerprint dirty for crossbeam-deque v0.8.6/Check { test: false }/TargetInner { ..: lib_target("crossbeam_deque", ["lib"], "C:\\Users\\molsb\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\crossbeam-deque-0.8.6\\src\\lib.rs", Edition2021) }
+   0.061874600s  INFO prepare_target{force=false package_id=crossbeam-deque v0.8.6 target="crossbeam_deque"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.062558000s  INFO prepare_target{force=false package_id=crossbeam-epoch v0.9.18 target="crossbeam_epoch"}: cargo::core::compiler::fingerprint: fingerprint dirty for crossbeam-epoch v0.9.18/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crossbeam_epoch", ["lib"], "C:\\Users\\molsb\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\crossbeam-epoch-0.9.18\\src\\lib.rs", Edition2021) }
+   0.062578500s  INFO prepare_target{force=false package_id=crossbeam-epoch v0.9.18 target="crossbeam_epoch"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.063262700s  INFO prepare_target{force=false package_id=crossbeam-utils v0.8.21 target="crossbeam_utils"}: cargo::core::compiler::fingerprint: fingerprint dirty for crossbeam-utils v0.8.21/Check { test: false }/TargetInner { ..: lib_target("crossbeam_utils", ["lib"], "C:\\Users\\molsb\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\crossbeam-utils-0.8.21\\src\\lib.rs", Edition2021) }
+   0.063283200s  INFO prepare_target{force=false package_id=crossbeam-utils v0.8.21 target="crossbeam_utils"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.066194500s  INFO prepare_target{force=false package_id=main v0.1.0 (C:\Users\molsb\Documents\Programming\Stream_Processing\main) target="main"}: cargo::core::compiler::fingerprint: fingerprint dirty for main v0.1.0 (C:\Users\molsb\Documents\Programming\Stream_Processing\main)/Check { test: true }/TargetInner { name: "main", doc: true, ..: with_path("C:\\Users\\molsb\\Documents\\Programming\\Stream_Processing\\main\\src\\main.rs", Edition2021) }
+   0.066219700s  INFO prepare_target{force=false package_id=main v0.1.0 (C:\Users\molsb\Documents\Programming\Stream_Processing\main) target="main"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+    Checking either v1.15.0
+    Checking crossbeam-utils v0.8.21
+    Checking crossbeam-epoch v0.9.18
+    Checking crossbeam-deque v0.8.6
+    Checking rayon-core v1.13.0
+    Checking rayon v1.11.0
+    Checking main v0.1.0 (C:\Users\molsb\Documents\Programming\Stream_Processing\main)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.62s
